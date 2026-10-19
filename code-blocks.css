@@ -1,0 +1,30 @@
+/* code blocks: reading view */
+
+.markdown-rendered pre {
+    padding: 20px !important;
+}
+
+.markdown-rendered pre,
+.markdown-rendered pre code {
+    font-family: "JetBrains Mono", monospace !important;
+}
+
+/* code blocks: live preview */
+
+.markdown-source-view.mod-cm6 .HyperMD-codeblock,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock span {
+    font-family: "JetBrains Mono", monospace !important;
+}
+
+/* inline code: reading view */
+
+.markdown-rendered code:not(pre code) {
+    font-family: "JetBrains Mono", monospace !important;
+}
+
+/* inline code: live preview */
+
+.markdown-source-view.mod-cm6 .cm-inline-code,
+.markdown-source-view.mod-cm6 .cm-inline-code span {
+    font-family: "JetBrains Mono", monospace !important;
+}
